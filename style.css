@@ -4,9 +4,10 @@ body{
     box-sizing: border-box;
 }
 .main-header{
-    background-color: #f1baba;
-    color: rgb(6, 6, 6);
-    font-size: 20px;
+    background-color: #f7fb03;
+    color: rgb(171, 4, 255);
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
     width: 80%;
@@ -18,14 +19,11 @@ body{
     
 }
 .navbar ul{
-    list-style-type: none;
-   
+    list-style-type: none;  
 }
 .navbar ul li{
    
     display: inline;
-    
-
 }
 .navbar ul li a{
     text-decoration: none;
@@ -37,24 +35,22 @@ body{
 #showcase{
     width: 80%;
     margin: auto;
-    background-image: url("background.jpg");
+    background-color: rgb(15, 119, 133);
     color: white;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 #showcase h1{
     padding-top:30px;
     line-height: 1.7em;
-    background-position:left;
     text-align: center;
+    
 }
 #main{
     width: 70%;
     float: left;
     padding: 0 45px;
     box-sizing: border-box;
-   
-
 }
 #sidebar{
     width: 30%;
@@ -69,7 +65,7 @@ body{
    
     background-color: #696464;
     color: white;
-    padding-bottom:10px;
+    padding:5px;
     text-align: center;
     
 }
